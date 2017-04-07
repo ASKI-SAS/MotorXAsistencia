@@ -23,6 +23,65 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"></LinearLayout>
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:orientation="horizontal"
+                android:id="@+id/btnReporteIncidente">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_report_problem_gray_36dp"
+                    android:padding="5sp"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5sp"
+                    android:text="Reporte de Incidente"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:orientation="horizontal"
+                android:id="@+id/btnReporteMantenimiento">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_build_gray_36dp"
+                    android:padding="5sp"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5sp"
+                    android:text="Reporte de Mantenimiento"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:orientation="horizontal"
+                android:id="@+id/btnReporteAsistencia">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_font_download_gray_36dp"
+                    android:padding="5sp"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5sp"
+                    android:text="Reporte de Asistencia"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
