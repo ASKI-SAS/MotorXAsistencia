@@ -10,16 +10,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <LinearLayout
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="2">
+            android:layout_weight="2"
+            android:background="#BBB">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@drawable/talleres_concertados" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
                 android:scaleType="fitXY"
-                android:src="@drawable/tit_carx"/>
-        </LinearLayout>
+                android:src="@drawable/tit_carx" />
+        </RelativeLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
