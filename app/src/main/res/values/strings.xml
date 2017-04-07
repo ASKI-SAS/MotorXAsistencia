@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">MotorXAsistencia</string>
+    <string name="app_name">CarX Asistencia</string>
     <string name="main_title">CarX Asistencia</string>
+    <string name="reporte_incidente_name">Reporte de Incidente</string>
+    <string name="reporte_mantenimiento_name">Reporte de Mantenimiento</string>
+    <string name="reporte_asistencia_name">Reporte de Asistencia</string>
 </resources>

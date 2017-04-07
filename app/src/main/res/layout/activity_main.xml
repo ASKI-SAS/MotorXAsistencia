@@ -30,7 +30,8 @@
                 android:layout_height="wrap_content"
                 android:padding="10sp"
                 android:orientation="horizontal"
-                android:id="@+id/btnReporteIncidente">
+                android:id="@+id/btnReporteIncidente"
+                android:onClick="startReporteIncidente">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -41,7 +42,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5sp"
-                    android:text="Reporte de Incidente"
+                    android:text="@string/reporte_incidente_name"
                     android:layout_gravity="center"/>
             </LinearLayout>
             <LinearLayout
@@ -60,7 +61,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5sp"
-                    android:text="Reporte de Mantenimiento"
+                    android:text="@string/reporte_mantenimiento_name"
                     android:layout_gravity="center"/>
             </LinearLayout>
             <LinearLayout
@@ -79,7 +80,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="5sp"
-                    android:text="Reporte de Asistencia"
+                    android:text="@string/reporte_asistencia_name"
                     android:layout_gravity="center"/>
             </LinearLayout>
         </LinearLayout>
